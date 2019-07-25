@@ -24,16 +24,22 @@ header {
     
 }
 
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
 h1 {
-    position: absolute;
+    position: relative;
+    bottom: 88px;
+    float: left;
+    width: 35%;
     padding: 40px 40px;
     background: #4aaaa5;
     font-size: 25px;
     text-align: center;
     line-height: 5px;
     color: white;
-    bottom: 0px;
-    left: 355px;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
     
@@ -50,10 +56,10 @@ h2 {
 
 .links {
   
-    position: absolute;
+    position: relative;
+    bottom: 50px;
     float: right;
-    right: 355px;
-  
+    
 }
 
 .aboutme {
